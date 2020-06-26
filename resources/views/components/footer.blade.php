@@ -52,10 +52,10 @@
                 <p class="footer__title">Меню</p>
                 <div class="footer__link-wrapper">
                     <div>
-                        <a href="#" class="footer__menu-link">Главная</a>
+                        <a href="{{ url('/') }}" class="footer__menu-link">Главная</a>
                     </div>
                     <div>
-                        <a href="#" class="footer__menu-link">Ремонт квартир</a>
+                        <a href="{{ url('/remont-kvartir') }}" class="footer__menu-link">Ремонт квартир</a>
                     </div>
                     <div>
                         <a href="#" class="footer__menu-link">Отделка полов</a>

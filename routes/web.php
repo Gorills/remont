@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/pages', function () {
+Route::get('/remont-kvartir', function () {
     return view('pages');
 });
 

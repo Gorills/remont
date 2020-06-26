@@ -28,7 +28,7 @@
 
                 <div class="offer__row">
 
-                    <a href="{{ url('/pages') }}" class="offer__item offer__item--one">
+                    <a href="{{ url('/remont-kvartir') }}" class="offer__item offer__item--one">
                         <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="offer__img">
 
                         <div class="offer__text-block">
