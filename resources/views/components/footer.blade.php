@@ -4,7 +4,7 @@
             <div class="footer__column">
 
                 <a href="#" class="footer__logo-link">
-                    <img src="{{ URL::asset('images/logo2.png') }}" alt="" class="footer__logo">
+                    <img src="{{ URL::asset('images/logo2.png') }}" alt="логотип" class="footer__logo">
                 </a>
 
                 <p class="footer__text-left">

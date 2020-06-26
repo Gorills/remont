@@ -29,7 +29,7 @@
                 <div class="offer__row">
 
                     <a href="{{ url('/remont-kvartir') }}" class="offer__item offer__item--one">
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="ремонт квартир" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка квартир</p>
@@ -43,7 +43,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--two">
-                        <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="Отделка балконов" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка балконов</p>
@@ -57,7 +57,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--tree">
-                        <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка стен</p>
@@ -71,7 +71,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--for">
-                        <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="Отделка потолков" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка потолков</p>
@@ -85,7 +85,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--five">
-                        <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="Отделка полов" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка полов</p>
@@ -99,7 +99,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--six">
-                        <img src="{{ URL::asset('images/offer/6.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/6.jpg') }}" alt="Отделка санузлов" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка санузлов</p>
@@ -113,7 +113,7 @@
                     </a>
 
                     <a href="#" class="offer__item offer__item--seven">
-                        <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="" class="offer__img">
+                        <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="Ремонт офисов" class="offer__img">
 
                         <div class="offer__text-block">
                             <p class="offer__text">Отделка офисов</p>
@@ -148,7 +148,7 @@
         </div>
 
 
-        <img src="{{ URL::asset('images/bg-1.jpg') }}" alt="" class="capture__img">
+        <img src="{{ URL::asset('images/bg-1.jpg') }}" alt="ремонт квартир томск" class="capture__img">
     </div>
 
 

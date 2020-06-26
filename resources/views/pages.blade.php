@@ -1,42 +1,17 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ URL::asset('css/site.css?').date('l jS \of F Y h:i:s A') }}">
+@extends('layouts.custom')
 
-    <link rel="stylesheet" href="{{URL::asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/animate.css')}}">
-
-
-    <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
-
-    <title></title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content="" />
-    <link rel="canonical" href=""/>
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="" />
-    <meta name="theme-color" content="#ff6801">
-    <meta property="og:site_name" content="beton70.com" />
-    <meta property="og:image" content="" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
-
-</head>
-<body>
+@section('title', '')
+@section('description', '')
+@section('keywords', '')
+@section('canonical', '')
+@section('og:title', '')
+@section('og:description', '')
+@section('og:url', '')
+@section('twitter:title', '')
+@section('twitter:description', '')
 
 
-@component('components.header')
-    @slot('header') header--pages @endslot
-
-@endcomponent
+@section('content')
 
 
 
@@ -311,40 +286,5 @@
     </div>
 </div>
 
+@endsection
 
-
-@component('components.footer')
-
-@endcomponent
-
-<script type="application/ld+json"> {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "ООО Руд Медиум",
-    "alternateName": "Руд Медиум",
-    "description": "Бетон, раствор, тортуарная плитка",
-    "url": "https://beton70.com/",
-    "email": "beton70com@yandex.ru",
-    "legalName": "Руд Медиум",
-    "logo": "https://beton70.com/images/logo.png",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "RU",
-      "addressLocality": "Томск",
-      "addressRegion": "Томская область",
-      "postalCode": "634021",
-      "streetAddress": "ул. Шевченко, 49б ст 6"
-    },
-    "telephone": "+73822500200"
-  }
-</script>
-
-
-
-
-<style src="{{ URL::asset('js/app.js') }}"></style>
-<script src="{{ URL::asset('js/site.js') }} "></script>
-
-
-</body>
-</html>
