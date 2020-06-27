@@ -22,8 +22,8 @@
     <meta property="og:title" content="@yield('og:title')" />
     <meta property="og:description" content="@yield('og:description')" />
     <meta property="og:url" content="@yield('og:url')" />
-    <meta name="theme-color" content="#ff6801">
-    <meta property="og:site_name" content="beton70.com" />
+    <meta name="theme-color" content="#b0a171">
+    <meta property="og:site_name" content="https://prorab70.ru/" />
     <meta property="og:image" content="" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
