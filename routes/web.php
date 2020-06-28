@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/razrab', function () {
+    return view('razrab');
+});
 
 Route::get('/remont-kvartir', function () {
     return view('pages');
