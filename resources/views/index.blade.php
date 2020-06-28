@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
 @section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('canonical', 'https://prorab70.ru/')
+@section('og:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('og:description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
+@section('og:url', 'https://prorab70.ru/')
+@section('twitter:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('twitter:description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
 
 
 @section('content')
