@@ -14,18 +14,7 @@
 @section('content')
 
 
-
-
-    @component('components.breadcrumb')
-        @slot('title') Ремонт квартир @endslot
-
-
-        @slot('parent') Главная @endslot
-{{--        @slot('prev') Предыдущая @endslot--}}
-
-        @slot('active') Страница в разработке @endslot
-    @endcomponent
-
+    
 
 
 <div class="error">
@@ -39,6 +28,6 @@
 </div>
 
 
-    
+
 
 @endsection
