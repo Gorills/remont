@@ -12,7 +12,7 @@
 @section('twitter:title', '')
 
 @section('content')
-    
+
 
 
 
@@ -39,17 +39,6 @@
 </div>
 
 
-
-
-
-
-@component('components.footer')
-
-@endcomponent
-
-@component('components.schema')
-
-@endcomponent
-
+    
 
 @endsection
