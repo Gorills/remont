@@ -8,22 +8,21 @@
                 </a>
 
                 <p class="footer__text-left">
-                    We are an industry-leading flooring products and services provider.
-                    Let’s make your floor look spectacular!
+                    Ремонт и отделка квартир, офисов и других помещений в Томске под ключ
                 </p>
 
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-phone"></i>
-                    <a href="#" class="footer__contacts-link">+1 323-913-4688</a>
+                    <a href="#" class="footer__contacts-link">8 (952) 805 24-26</a>
                 </div>
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-clock-o"></i>
-                    <p class="footer__contacts-text">Mon-Sat: 07:00AM - 05:00PM</p>
+                    <p class="footer__contacts-text">Пн-Вс: 07:00 - 20:00</p>
                 </div>
-                <div class="footer__contacts-wrapper">
-                    <i class="icon fa fa-location-arrow"></i>
-                    <a href="#" class="footer__contacts-link">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
-                </div>
+{{--                <div class="footer__contacts-wrapper">--}}
+{{--                    <i class="icon fa fa-location-arrow"></i>--}}
+{{--                    <a href="#" class="footer__contacts-link">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>--}}
+{{--                </div>--}}
 
             </div>
             <div class="footer__column">
@@ -58,16 +57,16 @@
                         <a href="{{ url('/remont-kvartir') }}" class="footer__menu-link">Ремонт квартир</a>
                     </div>
                     <div>
-                        <a href="#" class="footer__menu-link">Отделка полов</a>
+                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка полов</a>
                     </div>
                     <div>
-                        <a href="#" class="footer__menu-link">Отделка стен</a>
+                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка стен</a>
                     </div>
                     <div>
-                        <a href="#" class="footer__menu-link">Отделка потолков</a>
+                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка потолков</a>
                     </div>
                     <div>
-                        <a href="#" class="footer__menu-link">Ремонт коммерческих помещений</a>
+                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Ремонт коммерческих помещений</a>
                     </div>
 
                 </div>

@@ -35,7 +35,7 @@
             <div class="carousel__info">
                 <h2 class="carousel__title">Ремонт офисов под ключ</h2>
                 <p class="carousel__subtitle">Отделка офисных и других коммерческих помещений в Томске.</p>
-                <a href="{{ url('/remont-ofisov') }}" class="carousel__btn btn btn__accent">Подробнее</a>
+                <a href="{{ url('/razrab') }}" class="carousel__btn btn btn__accent">Подробнее</a>
 
 
             </div>

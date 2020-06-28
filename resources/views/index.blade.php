@@ -42,7 +42,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--two">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--two">
                         <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="Отделка балконов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -56,7 +56,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--tree">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--tree">
                         <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
 
                         <div class="offer__text-block">
@@ -70,7 +70,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--for">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--for">
                         <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="Отделка потолков" class="offer__img">
 
                         <div class="offer__text-block">
@@ -84,7 +84,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--five">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--five">
                         <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="Отделка полов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -98,7 +98,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--six">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--six">
                         <img src="{{ URL::asset('images/offer/6.jpg') }}" alt="Отделка санузлов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -112,7 +112,7 @@
 
                     </a>
 
-                    <a href="#" class="offer__item offer__item--seven">
+                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--seven">
                         <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="Ремонт офисов" class="offer__img">
 
                         <div class="offer__text-block">

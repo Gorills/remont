@@ -17,11 +17,11 @@
                 <div class="header__contacts-icon">
                     <div class="header__contacts-wrap">
                         <i class="fas fa-phone"></i>
-                        <a href="#" class="header__contacts-link">8 (952) 898 46-01</a>
+                        <a href="#" class="header__contacts-link">8 (952) 805 24-26</a>
                     </div>
                     <div class="header__contacts-wrap">
                         <i class="far fa-envelope"></i>
-                        <a href="#" class="header__contacts-link">mail@mail.ru</a>
+                        <a href="#" class="header__contacts-link">biggib@mail.ru</a>
                     </div>
                 </div>
                 <a href="#" class="header__btn show_popup">Заказать звонок</a>
