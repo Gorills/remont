@@ -12,12 +12,7 @@
 @section('twitter:title', '')
 
 @section('content')
-
-
-@component('components.header')
-    @slot('header') header--pages @endslot
-
-@endcomponent
+    
 
 
 
