@@ -21,7 +21,7 @@
                     </div>
                     <div class="header__contacts-wrap">
                         <i class="far fa-envelope"></i>
-                        <a href="mailto:biggib@mail.ru" class="header__contacts-link">biggib@mail.ru</a>
+                        <a href="mailto:prorab70ru@yandex.ru" class="header__contacts-link">prorab70ru@yandex.ru</a>
                     </div>
                 </div>
                 <a href="#" class="header__btn show_popup">Заказать звонок</a>
@@ -49,7 +49,7 @@
                 </a>
             @endif
 
-     
+
 
 
 
