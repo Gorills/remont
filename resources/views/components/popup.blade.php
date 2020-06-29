@@ -3,6 +3,7 @@
     <div class="container">
         <p class="popup__title">Оставить заявку</p>
         <form class="popup__form" action= "{{ url('/sendemail/send') }}" method= "post">
+            {{ csrf_field() }}
 
             <input class="popup__input" type= "text" name= "name" placeholder="Имя" required>
 
