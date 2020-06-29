@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Mail;
 
 class SendEmailController extends Controller
 {
-    //
     function index() {
-        return view('send_email');
+        return view('index');
     }
+
     function send(Request $request) {
 
 
@@ -30,9 +30,8 @@ class SendEmailController extends Controller
         );
 
         Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
-        return view('/');
+        return view('thank-you');
 
 
     }
-
 }

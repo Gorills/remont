@@ -1,19 +1,13 @@
 
-@if($data['email'])
-    <h3>Заявка на участие в партнерской программе:</h3>
-@else
     <h3>Заявка с сайта:</h3>
-@endif
 
-<p>Имя: {{ $data['name'] }}</p>
-<p>Телефон: {{ $data['tel'] }}</p>
-
-
-@if($data['mark'])
-    <p>Марка: {{ $data['mark'] }}</p>
+@if($data['name'])
+    <p>Имя: {{ $data['name'] }}</p>
 @else
 
 @endif
+
+<p>Телефон: {{ $data['tel'] }}</p>
 
 
 @if($data['message'])
@@ -22,3 +16,9 @@
 
 @endif
 
+
+@if($data['page'])
+    <p>Заявка со страницы: {{ $data['page'] }}</p>
+@else
+
+@endif
