@@ -13,7 +13,7 @@
 
 @section('content')
 
-
+    <?php $pages = 'Отделка квартир' ?>
 
     @component('components.breadcrumb')
         @slot('title') Ремонт квартир @endslot
@@ -23,6 +23,8 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Ремонт квартир @endslot
+
+        @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 
 

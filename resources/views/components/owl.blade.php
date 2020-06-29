@@ -12,7 +12,7 @@
 
         </div>
 
-        <img src="{{ URL::asset('images/2.jpg') }}" alt="" class="carousel__img">
+        <img src="{{ URL::asset('images/2.jpg') }}" alt="Ремонт квартир под ключ" class="carousel__img">
     </div>
 
 {{--    <div class="carousel">--}}
@@ -35,14 +35,14 @@
             <div class="carousel__info">
                 <h2 class="carousel__title">Ремонт офисов под ключ</h2>
                 <p class="carousel__subtitle">Отделка офисных и других коммерческих помещений в Томске.</p>
-                <a href="{{ url('/razrab') }}" class="carousel__btn btn btn__accent">Подробнее</a>
+                <a href="{{ url('/remont-ofisov') }}" class="carousel__btn btn btn__accent">Подробнее</a>
 
 
             </div>
 
         </div>
 
-        <img src="{{ URL::asset('images/1.jpg') }}" alt="" class="carousel__img">
+        <img src="{{ URL::asset('images/1.jpg') }}" alt="Ремонт офисов под ключ" class="carousel__img">
     </div>
 
 

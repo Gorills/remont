@@ -13,7 +13,7 @@
 
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-phone"></i>
-                    <a href="#" class="footer__contacts-link">8 (952) 805 24-26</a>
+                    <a href="tel:89528052426" class="footer__contacts-link">8 (952) 805 24-26</a>
                 </div>
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-clock-o"></i>
@@ -28,8 +28,8 @@
             <div class="footer__column">
                 <p class="footer__title">Оставить заявку</p>
                 <p class="footer__subtitle">Оставьте Ваш номер телефлна и мы Вам перезвоним</p>
-                <form action="#">
-                    <input type="tel" class="footer__input" placeholder="+7 999 999 99-99">
+                <form action="{{ url('/sendemail/send') }}">
+                    <input type="tel" class="footer__input" placeholder="+7 999 999 99-99" required>
                     <button class="footer__btn">Отправить</button>
                 </form>
 
@@ -50,6 +50,7 @@
             <div class="footer__column footer__column-menu">
                 <p class="footer__title">Меню</p>
                 <div class="footer__link-wrapper">
+
                     <div>
                         <a href="{{ url('/') }}" class="footer__menu-link">Главная</a>
                     </div>
@@ -57,16 +58,22 @@
                         <a href="{{ url('/remont-kvartir') }}" class="footer__menu-link">Ремонт квартир</a>
                     </div>
                     <div>
-                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка полов</a>
+                        <a href="{{ url('/otdelka-polov') }}" class="footer__menu-link">Отделка полов</a>
                     </div>
                     <div>
-                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка стен</a>
+                        <a href="{{ url('/otdelka-sten') }}" class="footer__menu-link">Отделка стен</a>
                     </div>
                     <div>
-                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Отделка потолков</a>
+                        <a href="{{ url('/otdelka-potolka') }}" class="footer__menu-link">Отделка потолков</a>
                     </div>
                     <div>
-                        <a href="{{ url('/razrab') }}" class="footer__menu-link">Ремонт коммерческих помещений</a>
+                        <a href="{{ url('/otdelka-sanuzlov') }}" class="footer__menu-link">Отделка санузлов</a>
+                    </div>
+                    <div>
+                        <a href="{{ url('/otdelka-balkonov') }}" class="footer__menu-link">Отделка балконов</a>
+                    </div>
+                    <div>
+                        <a href="{{ url('/remont-ofisov') }}" class="footer__menu-link">Ремонт коммерческих помещений</a>
                     </div>
 
                 </div>
@@ -84,3 +91,6 @@
         </div>
     </div>
 </div>
+@component('components.popup')
+
+@endcomponent

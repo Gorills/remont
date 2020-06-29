@@ -15,17 +15,6 @@
 
 @endif
 
-@if($data['email'])
-    <p>Email: {{ $data['email'] }}</p>
-@else
-
-@endif
-
-@if($data['company'])
-    <p>Организация: {{ $data['company'] }}</p>
-@else
-
-@endif
 
 @if($data['message'])
     <p>Сообщение: {{ $data['message'] }}</p>

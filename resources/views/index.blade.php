@@ -1,17 +1,20 @@
 @extends('layouts.custom')
 
-@section('title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске | Прораб70')
 @section('description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
-@section('keywords', '')
+@section('keywords', 'прораб70, prorab70')
 @section('canonical', 'https://prorab70.ru/')
-@section('og:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('og:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске | Прораб70')
 @section('og:description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
 @section('og:url', 'https://prorab70.ru/')
-@section('twitter:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске')
+@section('twitter:title', 'Ремонт квартир, офисов, отделка помещений под ключ в Томске | Прораб70')
 @section('twitter:description', 'Заказать ремонт или отделку помещения под ключ в Томске, от квартиры до офиса. Тел: 89528052426')
 
 
 @section('content')
+
+
+    <?php $type = 'Главная'; ?>
 
     @component('components.owl')
 
@@ -42,7 +45,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--two">
+                    <a href="{{ url('/otdelka-balkonov') }}" class="offer__item offer__item--two">
                         <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="Отделка балконов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -56,7 +59,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--tree">
+                    <a href="{{ url('/otdelka-sten') }}" class="offer__item offer__item--tree">
                         <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
 
                         <div class="offer__text-block">
@@ -70,7 +73,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--for">
+                    <a href="{{ url('/otdelka-potolka') }}" class="offer__item offer__item--for">
                         <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="Отделка потолков" class="offer__img">
 
                         <div class="offer__text-block">
@@ -84,7 +87,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--five">
+                    <a href="{{ url('/otdelka-polov') }}" class="offer__item offer__item--five">
                         <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="Отделка полов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -98,7 +101,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--six">
+                    <a href="{{ url('/otdelka-sanuzlov') }}" class="offer__item offer__item--six">
                         <img src="{{ URL::asset('images/offer/6.jpg') }}" alt="Отделка санузлов" class="offer__img">
 
                         <div class="offer__text-block">
@@ -112,7 +115,7 @@
 
                     </a>
 
-                    <a href="{{ url('/razrab') }}" class="offer__item offer__item--seven">
+                    <a href="{{ url('/remont-ofisov') }}" class="offer__item offer__item--seven">
                         <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="Ремонт офисов" class="offer__img">
 
                         <div class="offer__text-block">

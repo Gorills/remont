@@ -30,5 +30,5 @@
         </div>
     </div>
 
-    <img src="{{ URL::asset('images/bg-breadcrumbs.jpg') }}" alt="{{ $title }}" class="breadcrumb__img">
+    <img src="{!! $img ?? '' !!}" alt="{{ $title }}" class="breadcrumb__img">
 </div>
