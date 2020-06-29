@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('keywords', 'отделка квартир, ремонт квартир, ремонт квартиры под ключ, томск')
-@section('canonical', 'https://prorab70.ru/remont-kvartir')
-@section('og:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('og:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('og:url', 'https://prorab70.ru/remont-kvartir')
-@section('twitter:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('twitter:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
+@section('title', 'Укладка кафеля в санузле Томск | Прораб70')
+@section('description', 'Отделка в санузлах под ключ, не дорого. Заказать укладку кафеля в санузле. Цены по тел: 89528052426')
+@section('keywords', 'отделка санузлов, ремонт в туалете, укладка кафеля, томск')
+@section('canonical', 'https://prorab70.ru/otdelka-sanuzlov')
+@section('og:title', 'Укладка кафеля в санузле Томск | Прораб70')
+@section('og:description', 'Отделка в санузлах под ключ, не дорого. Заказать укладку кафеля в санузле. Цены по тел: 89528052426')
+@section('og:url', 'https://prorab70.ru/otdelka-sanuzlov')
+@section('twitter:title', 'Укладка кафеля в санузле Томск | Прораб70')
+@section('twitter:description', 'Отделка в санузлах под ключ, не дорого. Заказать укладку кафеля в санузле. Цены по тел: 89528052426')
 
 
 @section('content')

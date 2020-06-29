@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('keywords', 'отделка квартир, ремонт квартир, ремонт квартиры под ключ, томск')
-@section('canonical', 'https://prorab70.ru/remont-kvartir')
-@section('og:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('og:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('og:url', 'https://prorab70.ru/remont-kvartir')
-@section('twitter:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('twitter:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
+@section('title', 'Выровнять, покрасить или сделать потолок под ключ в Томске')
+@section('description', 'Заказать ремнт потолка в Томске по низкой цене. Покраска, побелка, выравнивание. Тел: 89528052426')
+@section('keywords', '')
+@section('canonical', 'https://prorab70.ru/otdelka-potolka')
+@section('og:title', 'Выровнять, покрасить или сделать потолок под ключ в Томске')
+@section('og:description', 'Заказать ремнт потолка в Томске по низкой цене. Покраска, побелка, выравнивание. Тел: 89528052426')
+@section('og:url', 'https://prorab70.ru/otdelka-potolka')
+@section('twitter:title', 'Выровнять, покрасить или сделать потолок под ключ в Томске')
+@section('twitter:description', 'Заказать ремнт потолка в Томске по низкой цене. Покраска, побелка, выравнивание. Тел: 89528052426')
 
 
 @section('content')

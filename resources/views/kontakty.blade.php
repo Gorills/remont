@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('keywords', 'отделка квартир, ремонт квартир, ремонт квартиры под ключ, томск')
-@section('canonical', 'https://prorab70.ru/remont-kvartir')
-@section('og:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('og:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
-@section('og:url', 'https://prorab70.ru/remont-kvartir')
-@section('twitter:title', 'Отделка квартир под ключ в Томске. Ремонт квартир Томск')
-@section('twitter:description', 'Все виды отделочных работ, ремонт квартир в Томске под ключ. Тел: 89528052426')
+@section('title', 'Контакты компании Прораб70')
+@section('description', 'Как с нами связаться. Тел: 89528052426')
+@section('keywords', '')
+@section('canonical', 'https://prorab70.ru/kontakty')
+@section('og:title', 'Контакты компании Прораб70')
+@section('og:description', 'Как с нами связаться. Тел: 89528052426')
+@section('og:url', 'https://prorab70.ru/kontakty')
+@section('twitter:title', 'Контакты компании Прораб70')
+@section('twitter:description', 'Как с нами связаться. Тел: 89528052426')
 
 
 @section('content')

@@ -30,7 +30,7 @@
                 <p class="footer__subtitle">Оставьте Ваш номер телефлна и мы Вам перезвоним</p>
                 <form action="{{ url('/sendemail/send') }}" method="post">
                     {{ csrf_field() }}
-                    <input type="tel" class="footer__input" placeholder="+7 999 999 99-99" required>
+                    <input type="tel" class="footer__input" name="tel" placeholder="+7 999 999 99-99" required>
                     <button class="footer__btn">Отправить</button>
                 </form>
 
@@ -87,7 +87,7 @@
 <div class="razrab">
     <div class="container">
         <div class="razrab__inner">
-            <p class="razrab__text"><a href="https://gagarin-digital.ru/" class="razrab__link">Разработка сайта: </a><b>Gagarin-digital.ru</b></p>
+            <p class="razrab__text"><a href="https://gagarin-digital.ru/" class="razrab__link" target="_blank">Разработка сайта: </a><b> Gagarin-digital.ru</b></p>
 
         </div>
     </div>
