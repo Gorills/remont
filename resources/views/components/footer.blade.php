@@ -28,7 +28,7 @@
             <div class="footer__column">
                 <p class="footer__title">Оставить заявку</p>
                 <p class="footer__subtitle">Оставьте Ваш номер телефлна и мы Вам перезвоним</p>
-                <form action="{{ url('/sendemail/send') }}">
+                <form action="{{ url('/sendemail/send') }}" method="post">
                     {{ csrf_field() }}
                     <input type="tel" class="footer__input" placeholder="+7 999 999 99-99" required>
                     <button class="footer__btn">Отправить</button>
