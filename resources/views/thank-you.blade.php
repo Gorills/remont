@@ -14,10 +14,13 @@
 @section('content')
 
 
-    <div class="razrab">
+
+    <div class="error">
         <div class="container">
-            <div class="razrab__inner">
+            <div class="error__inner">
                 <h1 class="razrab__title">Ваша заявка принята! Мы свяжемся с вами в ближайшее время!</h1>
+
+
             </div>
         </div>
     </div>
