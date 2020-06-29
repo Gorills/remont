@@ -34,7 +34,27 @@
 
 
         <div class="header__inner">
-            <img src="{{ URL::asset('images/logo.png') }}" alt="" class="header__logo">
+            <?php $home = '/' ?>
+
+            @if($home == $_SERVER['REQUEST_URI'])
+
+                <img src="{{ asset('images/logo.png') }}" alt="logo" class="header__logo">
+
+
+
+            @else
+                <a href="{{ URL('/') }}">
+                    <img src="{{ asset('images/logo.png') }}" alt="" class="header__logo">
+
+                </a>
+            @endif
+
+     
+
+
+
+
+
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item"><a href="{{ url('/') }}" class="header__link">Главная</a></li>
