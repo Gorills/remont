@@ -86,11 +86,14 @@
     // .pages__btn
     @media only screen and (max-width: 768px)
         &__btn
-            display: block
+            display: inline-block
+            margin: 0 auto
             text-align: center
     // .pages__img
 
     &__img
         width: 100%
         min-width: 450px
+        @media only screen and (max-width: 480px)
+            min-width: 250px
 

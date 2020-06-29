@@ -59,7 +59,17 @@
 
 @yield('content')
 
+<div class="phone-btn">
+        <a href="tel:89528052426" class="phone-btn__link">
+            <i class="phone-btn__icon fas fa-phone"></i>
+        </a>
+</div>
 
+<div class="whatsapp-btn">
+        <a href="https://api.whatsapp.com/send?phone=79528052426&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83 " class="whatsapp-btn__link">
+            <i class="whatsapp-btn__icon fab fa-whatsapp"></i>
+        </a>
+</div>
 
 @component('components.footer')
 
