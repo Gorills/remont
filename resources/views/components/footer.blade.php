@@ -3,7 +3,7 @@
         <div class="footer__inner">
             <div class="footer__column">
 
-                <a href="#" class="footer__logo-link">
+                <a href="{{ url('/') }}" class="footer__logo-link">
                     <img src="{{ URL::asset('images/logo2.png') }}" alt="логотип" class="footer__logo">
                 </a>
 
