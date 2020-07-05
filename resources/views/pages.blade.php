@@ -274,10 +274,12 @@
             </p>
 
             <div class="optimize__wrap">
-
-                <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир под ключ в Томске">
-                <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир под ключ в Томске">
-
+                <div class="optimize__wrap-img">
+                    <img class="optimize__img" src="{{ URL::asset('images/works/1.jpg') }}" alt="Отделка квартир под ключ в Томске">
+                </div>
+                <div class="optimize__wrap-img">
+                    <img class="optimize__img" src="{{ URL::asset('images/works/2.jpg') }}" alt="Ремонт квартиры в Томске">
+                </div>
             </div>
             <div class="optimize__btn">
                 <button class="btn btn__accent show_popup">Оставить заявку</button>
