@@ -2077,3 +2077,32 @@ button {
   font-size: 43px;
 }
 
+.kontakty {
+  padding: 40px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.kontakty__inner {
+  text-align: center;
+}
+
+.kontakty__title {
+  font-size: 40px;
+}
+
+.kontakty__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  margin-top: 20px;
+}
+
+.kontakty__adress {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+

@@ -29,15 +29,17 @@
 
 
 
-    <div class="error">
-        <div class="container">
-            <div class="error__inner">
-                <h1 class="error__title">Страница находится в разработке, зайдите позже!</h1>
+   <div class="kontakty">
+       <div class="container">
+           <div class="kontakty__inner">
+               <h1 class="kontakty__title">Наши контакты</h1>
+               <a href="tel:89528052426" class="kontakty__link">8 (952) 805 24-26</a>
+               <a href="mailto:prorab70ru@yandex.ru" class="kontakty__link">prorab70ru@yandex.ru</a>
+               <p class="kontakty__adress">г.Томск, пл. Батенькова 2</p>
 
-
-            </div>
-        </div>
-    </div>
+           </div>
+       </div>
+   </div>
 
 
 
