@@ -210,17 +210,23 @@
 
                 </p>
 
-                <div class="optimize__wrap">
+{{--                <div class="optimize__wrap">--}}
 
-                    <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир в Томске">
-                    <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир в Томске">
+{{--                    <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир в Томске">--}}
+{{--                    <img class="optimize__img" src="{{ URL::asset('images/1.jpg') }}" alt="Отделка квартир в Томске">--}}
 
-                </div>
+{{--                </div>--}}
+
+                <h3 class="optimize__title">Бригада, которая выполнит все работы по римонту квартиры</h3>
+                <p class="optimize__text">
+                    Вы все еще ищете строительную бригаду? Значит вы попали на нужный сайт, ведь мы выполняем все услуги по внутренней отделке любых
+                    помещений. Больше не нуджно искать строительную бригаду, которая возьмет подряд на выполнение работ. Посто позвоните нам или оставьте
+                    заявку!
+
+                </p>
                 <div class="optimize__btn">
                     <button class="btn btn__accent show_popup">Оставить заявку</button>
                 </div>
-
-
             </div>
         </div>
     </div>
