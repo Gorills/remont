@@ -8,6 +8,6 @@
     "email": "biggib@mail.ru",
     "legalName": "Прораб70",
     "logo": "https://prorab70.ru/images/logo.png",
-    "telephone": "+73822500200"
+    "telephone": "+79528052426"
   }
 </script>
