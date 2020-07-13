@@ -24,7 +24,7 @@
     <meta property="og:url" content="@yield('og:url')" />
     <meta name="theme-color" content="#b0a171">
     <meta property="og:site_name" content="https://prorab70.ru/" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
