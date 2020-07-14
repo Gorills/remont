@@ -5,7 +5,7 @@
     "alternateName": "Прораб70",
     "description": "Ремонт и отделка квартир",
     "url": "https://prorab70.ru/",
-    "email": "biggib@mail.ru",
+    "email": "prorab70ru@yandex.ru",
     "legalName": "Прораб70",
     "logo": "https://prorab70.ru/images/logo.png",
     "telephone": "+79528052426"
