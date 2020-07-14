@@ -20,10 +20,15 @@
 
 
         @slot('parent') Главная @endslot
-{{--        @slot('prev') Предыдущая @endslot--}}
+
+        {{--        @slot('prev') Предыдущая @endslot--}}
+        {{--        @slot('link') {{ url('/') }} @endslot--}}
 
         @slot('active') Отделка полов @endslot
-        @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
+        @slot('activelink') {{ url('/otdelka-polov') }} @endslot
+
+
+        @slot('img') {{ URL::asset('images/breadcrumbs/parket.jpg') }} @endslot
     @endcomponent
 
 

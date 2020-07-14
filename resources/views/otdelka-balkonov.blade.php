@@ -23,6 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Отделка балконов @endslot
+        @slot('activelink') {{ url('/otdelka-balkonov') }} @endslot
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

@@ -63,11 +63,11 @@
                         <ul class="header__dropdown">
                             <li class="header__dropdown-item"><a href="{{ url('/remont-kvartir') }}" class="header__dropdown-link">Ремонт квартир</a></li>
                             <li class="header__dropdown-item"><a href="{{ url('/remont-ofisov') }}" class="header__dropdown-link">Ремонт Офисов</a></li>
-{{--                            <li class="header__dropdown-item"><a href="{{url('otdelka-polov')}}" class="header__dropdown-link">Отделка полов</a></li>--}}
-{{--                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-potolka') }}" class="header__dropdown-link">Отделка потолка</a></li>--}}
-{{--                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-sten') }}" class="header__dropdown-link">Отделка стен</a></li>--}}
-{{--                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-balkonov') }}" class="header__dropdown-link">Отделка балконов</a></li>--}}
-{{--                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-sanuzlov') }}" class="header__dropdown-link">Отделка санузлов</a></li>--}}
+                            <li class="header__dropdown-item"><a href="{{url('otdelka-polov')}}" class="header__dropdown-link">Отделка полов</a></li>
+                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-potolka') }}" class="header__dropdown-link">Отделка потолка</a></li>
+                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-sten') }}" class="header__dropdown-link">Отделка стен</a></li>
+                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-balkonov') }}" class="header__dropdown-link">Отделка балконов</a></li>
+                            <li class="header__dropdown-item"><a href="{{ url('/otdelka-sanuzlov') }}" class="header__dropdown-link">Отделка санузлов</a></li>
                         </ul>
                     <li class="header__item"><a href="{{ url('/portfolio') }}" class="header__link">Портфолио</a></li>
                     <li class="header__item"><a href="{{ url('/about-us') }}" class="header__link">О нас</a></li>

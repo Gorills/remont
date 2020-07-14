@@ -23,6 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Наш блог @endslot
+        @slot('activelink') {{ url('/blog') }} @endslot
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

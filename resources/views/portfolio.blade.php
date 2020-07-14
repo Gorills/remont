@@ -23,6 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Наши работы @endslot
+        @slot('activelink') {{ url('/portfolio') }} @endslot
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

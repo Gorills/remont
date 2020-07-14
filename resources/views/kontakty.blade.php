@@ -23,6 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Контакты @endslot
+        @slot('activelink') {{ url('/kontakty') }} @endslot
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

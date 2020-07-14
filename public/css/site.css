@@ -286,6 +286,21 @@ button {
   z-index: 3;
 }
 
+.breadcrumb__link--active {
+  font-family: "OswaldRegular";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.breadcrumb__link--active:hover {
+  color: #fff;
+  cursor: default;
+}
+
+.breadcrumb__link--active::after {
+  content: none;
+}
+
 .breadcrumb__img {
   opacity: 80%;
   position: absolute;
@@ -668,16 +683,16 @@ button {
 
 .header__dropdown {
   border-top: 1px solid #a1a1a1;
-  max-width: 320px;
+  max-width: 1110px;
   padding: 15px 15px;
   position: absolute;
   background-color: #fff;
   list-style: none;
   display: none;
-  justify-content: space-around;
-  margin: 0;
+  justify-content: space-between;
+  margin: 0 auto;
   width: 100%;
-  left: 60%;
+  left: 50%;
   transform: translateX(-50%);
   box-shadow: 10px 10px 20px 3px rgba(66, 66, 66, 0.4);
 }
@@ -1518,6 +1533,7 @@ button {
   font-family: "OswaldRegular";
   font-weight: 400;
   font-size: 28px;
+  margin-bottom: 20px;
 }
 
 .pages__list {

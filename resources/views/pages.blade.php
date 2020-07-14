@@ -23,7 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Ремонт квартир @endslot
-
+        @slot('activelink') {{ url('/remont-kvartir') }} @endslot
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

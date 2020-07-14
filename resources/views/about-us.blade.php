@@ -23,6 +23,8 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') О компании @endslot
+        @slot('activelink') {{ url('/about-us') }} @endslot
+
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent
 

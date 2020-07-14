@@ -54,7 +54,6 @@
         text-decoration: none
         position: relative
         transition: $transition
-
         &:hover
             color: $accent-color
         &::after
@@ -65,7 +64,15 @@
             top: 50%
             transform: translateY(-50%)
             z-index: 3
+        &--active
+            @include OswaldRegular
+            color: #ffffff
+            &:hover
+                color: #fff
+                cursor: default
 
+            &::after
+                content: none
 
 
     // .breadcrumb__img

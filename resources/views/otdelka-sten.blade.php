@@ -23,6 +23,7 @@
 {{--        @slot('prev') Предыдущая @endslot--}}
 
         @slot('active') Отделка стен @endslot
+        @slot('activelink') {{ url('/otdelka-sten') }} @endslot
 
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
     @endcomponent

@@ -20,9 +20,14 @@
 
 
         @slot('parent') Главная @endslot
-{{--        @slot('prev') Предыдущая @endslot--}}
+
+
+        {{--        @slot('prev') Предыдущая @endslot--}}
+        {{--        @slot('link') {{ url('/') }} @endslot--}}
 
         @slot('active') Отделка потолка @endslot
+        @slot('activelink') {{ url('/otdelka-potolka') }} @endslot
+
         @slot('img') {{ URL::asset('images/bg-breadcrumbs.jpg') }} @endslot
 
     @endcomponent
