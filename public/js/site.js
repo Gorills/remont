@@ -12216,23 +12216,10 @@ $('.overlay_popup').click(function () {
   // Обрабатываем клик по заднему фону
   $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
 });
-$(function () {
-  if ($(window).width() < 768) {
-    $(".header__item--dropdown").click(function (e) {
-      e.preventDefault();
-      $(".header__dropdown").toggleClass('header__dropdown--active');
-      $(".header__item").toggleClass('header__item--active');
-    });
-  } else {
-    $(".header__item--dropdown").hover(function (e) {
-      e.preventDefault();
-      $(".header__dropdown").addClass('header__dropdown--active');
-      $(".header__item").addClass('header__item--active');
-    });
-  }
-});
 $(".header__item--dropdown").click(function (e) {
   e.preventDefault();
+  $(".header__dropdown").toggleClass('header__dropdown--active');
+  $(".header__item").toggleClass('header__item--active');
 });
 $('.header__dropdown').mouseleave(function () {
   setTimeout(function () {
