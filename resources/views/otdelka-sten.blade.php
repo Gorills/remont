@@ -27,7 +27,7 @@
         @slot('activelink') {{ url('/otdelka-polov') }} @endslot
 
 
-        @slot('img') {{ URL::asset('images/breadcrumbs/parket.jpg') }} @endslot
+        @slot('img') {{ URL::asset('images/breadcrumbs/steny.jpg') }} @endslot
     @endcomponent
 
 
