@@ -137,22 +137,15 @@
         </div>
     </div>
 
-    <div class="capture">
-        <div class="container">
-            <div class="capture__inner">
-                <h2 class="capture__title">Оставьте заявку на бесплатный замер</h2>
-                <p class="capture__text">
-                    Оставьте свои контактные данные и мы свяжемся с Вами в кратчайшие сроки для расчета стоимости ремонта и составления подробной сметы.
+    @component('components.capture')
 
-                </p>
+        @slot('title') бесплатный замер @endslot
+        @slot('img') {{URL::asset('images/bg-1.jpg')}} @endslot
+        @slot('alt') Ремонт квартир в Томске @endslot
 
-                <a href="#" class="capture__btn btn btn__dark show_popup">Оставить заявку</a>
-            </div>
-        </div>
+    @endcomponent
 
 
-        <img src="{{ URL::asset('images/bg-1.jpg') }}" alt="ремонт квартир томск" class="capture__img">
-    </div>
 
 
     @component('components.how')

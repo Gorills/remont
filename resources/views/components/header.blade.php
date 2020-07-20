@@ -62,8 +62,8 @@
                     <li class="header__item header__item--dropdown" itemprop="itemListElement"><a href="#" class="header__link header__link-drop">Услуги</a><i class="header__icon fas fa-sort-down"></i></li>
                         <ul class="header__dropdown">
                             <li class="header__dropdown-item"><a href="{{ url('/remont-kvartir') }}" class="header__dropdown-link">Ремонт квартир</a></li>
-                            <li class="header__dropdown-item"><a href="{{ url('/remont-ofisov') }}" class="header__dropdown-link">Ремонт Офисов</a></li>
-                            <li class="header__dropdown-item"><a href="{{url('otdelka-polov')}}" class="header__dropdown-link">Отделка полов</a></li>
+                            <li class="header__dropdown-item"><a href="{{ url('/remont-ofisov') }}" class="header__dropdown-link">Ремонт офисов</a></li>
+                            <li class="header__dropdown-item"><a href="{{url('otdelka-polov')}}" class="header__dropdown-link">Ремонт полов</a></li>
                             <li class="header__dropdown-item"><a href="{{ url('/otdelka-potolka') }}" class="header__dropdown-link">Отделка потолка</a></li>
                             <li class="header__dropdown-item"><a href="{{ url('/otdelka-sten') }}" class="header__dropdown-link">Отделка стен</a></li>
                             <li class="header__dropdown-item"><a href="{{ url('/otdelka-balkonov') }}" class="header__dropdown-link">Отделка балконов</a></li>
