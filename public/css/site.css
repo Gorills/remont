@@ -738,6 +738,7 @@ button {
 @media only screen and (max-width: 768px) {
   .header__dropdown-link {
     padding: 15px;
+    width: 100%;
   }
 }
 
