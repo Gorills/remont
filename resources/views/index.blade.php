@@ -262,7 +262,7 @@
                             </div>
                             <div class="review__back">
 
-                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="">
+                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="Ремонт квартир фото">
 
                             </div>
                         </div>
@@ -288,7 +288,7 @@
                             </div>
                             <div class="review__back">
 
-                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="">
+                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="Ремонт квартир фото">
 
                             </div>
                         </div>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="review__back">
 
-                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="">
+                                <img class="review__img" src="{{ URL::asset('images/card/1.jpg') }}" alt="Ремонт квартир фото">
 
                             </div>
                         </div>
