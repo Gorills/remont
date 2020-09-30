@@ -28,7 +28,7 @@
     @endcomponent
 
 
-<div class="pages">
+<section class="pages">
     <div class="container">
         <div class="pages__inner">
             <h1 class="pages__title">Ремонт квартир в Томске</h1>
@@ -85,10 +85,10 @@
         </div>
 
     </div>
-</div>
+</section>
 
 
-<div class="price">
+<section class="price">
     <div class="container">
         <div class="price__inner">
 
@@ -179,9 +179,9 @@
 
         </div>
     </div>
-</div>
+</section>
 
-<div class="advantages">
+<section class="advantages">
     <div class="container">
         <div class="advantages__inner">
             <h2 class="title-2">Преимущества ремонта квартиры под ключ</h2>
@@ -214,7 +214,7 @@
 
     <img src="{{ URL::asset('images/advantages.jpg') }}" alt="ремонт квартир под ключ" class="advantages__img">
 
-</div>
+</section>
 
 
 
@@ -230,7 +230,7 @@
 @endcomponent
 
 
-<div class="optimize">
+<section class="optimize">
     <div class="container">
         <div class="optimize__inner">
             <h2 class="title-2">Отделка квартир под ключ в Томске</h2>
@@ -255,14 +255,7 @@
 
 
             </ul>
-{{--            <p class="optimize__text">--}}
-{{--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eligendi eveniet id laudantium nostrum rem vel? Architecto dolore error--}}
-{{--                expedita laborum numquam officiis perspiciatis praesentium reiciendis reprehenderit, similique, tempora veritatis?--}}
-{{--            </p>--}}
-{{--            <p class="optimize__text">--}}
-{{--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eligendi eveniet id laudantium nostrum rem vel? Architecto dolore error--}}
-{{--                expedita laborum numquam officiis perspiciatis praesentium reiciendis reprehenderit, similique, tempora veritatis?--}}
-{{--            </p>--}}
+
 
 
             <h3 class="optimize__title">ВЫЗОВИТЕ МАСТЕРА ПО РЕМОНТУ КВАРТИР ДЛЯ РАСЧЕТА СТОИМОСТИ РЕМОНТА — ЭТО БЕСПЛАТНО!</h3>
@@ -294,7 +287,28 @@
 
         </div>
     </div>
-</div>
+</section>
+
+
+    <section class="optimize">
+        <div class="container">
+            <div class="optimize__inner">
+                <h2 class="title-2">Заказать ремонт квартиры в Томске</h2>
+                <p class="optimize__text">
+                    Процесс оформления заявки на ремонт квартиры в Томске достаточно простой. Для того, чтобы вызвать к себе на квартиру замерщика, достаточно оставить заявку в
+                    форме обратной связи или позвонить нам по телефону. Так же мы отвечаем на сообщения в Whatsapp и любые другие мессенджеры.
+                </p>
+                <p class="optimize__text">
+                    После того, как вы оставите заявку на ремонт квартиры любым из доступных способов, наш замерщик приедет к вам и составит смету на все необходимые работы, а так же
+                    материалы. Составление сметы и вызов замерщика это бесплатные услуги. 
+                </p>
+                <div class="optimize__btn">
+                    <button class="btn btn__accent show_popup">Оставить заявку</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 @endsection
 
